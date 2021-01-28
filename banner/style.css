@@ -49,4 +49,33 @@
 .banner__list--item:last-child {
   border-right: none;
 }
+
+@media screen and (max-width: 760px) {
+  .banner__list {
+    padding: 10px 0;
+  }
+  .banner__list--item__img {
+    height: 30px;
+    width: 30px;
+  }
+  .banner__list--item__text {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .banner__list {
+    padding: 10px 0;
+  }
+  .banner__list--item {
+    width: 30%;
+  }
+  .banner__list--item__img {
+    height: 20px;
+    width: 20px;
+  }
+  .banner__list--item__text {
+    font-size: 8px;
+  }
+}
 /*# sourceMappingURL=style.css.map */

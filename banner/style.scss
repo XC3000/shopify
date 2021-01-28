@@ -38,3 +38,41 @@
     border-right: none;
   }
 }
+
+@media screen and (max-width: 760px) {
+  .banner {
+    &__list {
+      padding: 10px 0;
+    }
+
+    &__list--item {
+      &__img {
+        height: 30px;
+        width: 30px;
+      }
+      &__text {
+        font-size: 8px;
+      }
+    }
+  }
+}
+
+
+@media screen and (max-width: 480px) {
+  .banner {
+    &__list {
+      padding: 10px 0;
+    }
+
+    &__list--item {
+      width: 30%;
+      &__img {
+        height: 20px;
+        width: 20px;
+      }
+      &__text {
+        font-size: 8px;
+      }
+    }
+  }
+}
