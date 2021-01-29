@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.assured-banner {
+  width: 35%;
+  height: 100px;
+  padding: 10px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.assured-banner img {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.assured-banner p {
+  background-color: aquamarine;
+  padding-left: 10px;
+  height: 100%;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.assured-banner p a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-size: 13px;
+  padding-top: 5px;
+}
+
+@media screen and (max-width: 900px) {
+  .assured-banner {
+    width: 100%;
+  }
+  .assured-banner p {
+    font-size: 13px;
+    width: 100%;
+    padding: 5px;
+    text-align: justify;
+  }
+  .assured-banner p a {
+    font-size: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
